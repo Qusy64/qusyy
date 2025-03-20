@@ -34,6 +34,7 @@ Nhưng với mỗi lần nhập hợp lệ, biến v5 sẽ giảm 1 đơn vị, 
 Vậy chương trình chỉ cho phép nhập 27 lần.
 Ta thấy để tìm một giá trị cho trước ta sử dụng thuật toán tìm kiếm nhị phân chia nhỏ khoảng giá trị và tìm được giá trị chính xác của v6.
  Điều này là khả thi khi:
+ 
  log₂(100000000) = 26.5754
   
  Đảm bảo sau 27 lần, ta sẽ tìm được giá trị chính xác của v6
