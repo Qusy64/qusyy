@@ -33,8 +33,8 @@ Nhìn vào đoạn code thì ta thấy chương trình sẽ cho biến v6 bằng
 Nhưng với mỗi lần nhập hợp lệ, biến v5 sẽ giảm 1 đơn vị, đến khi v5 = 0, trò chơi sẽ kết thúc
 Vậy chương trình chỉ cho phép nhập 27 lần.
 Ta thấy để tìm một giá trị cho trước ta sử dụng thuật toán tìm kiếm nhị phân chia nhỏ khoảng giá trị và tìm được giá trị chính xác của v6.
- Điều này là khả thi khi: $$
-  \log_{2}(100000000) = 26,5754 $$
+ Điều này là khả thi khi: $
+  \log_{2}(100000000) = 26,5754 $
  Đảm bảo sau 27 lần, ta sẽ tìm được giá trị chính xác của v6
 
 ![Image](https://github.com/user-attachments/assets/cb494597-d3bb-4a07-97f9-bd2c396b2877)
@@ -59,9 +59,9 @@ Nhìn vào code ta thấy hàm read(0, buf, size - 16) có một vấn đề. N�
 ![Image](https://github.com/user-attachments/assets/25242ce3-9465-4e5d-abd8-07dc156b25f4)
 
 Ta thấy đây là chương trình được thiết kế để chạy trên hệ thống có kiến trúc 32-bit, và trong hàm read thì giá trị (size - 16) là một giá trị không dấu nên khi ta nhập size = 0 thì sẽ gây ra tràn số. Kết quả sẽ là 
-$$
+$
 0 - 16 = 2^{32} - 16 = 4294967280.
-$$
+$
 
 ![Image](https://github.com/user-attachments/assets/60eee6e9-3c59-4054-9a78-0caf20df911f)
 
