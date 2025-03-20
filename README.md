@@ -33,8 +33,9 @@ Nhìn vào đoạn code thì ta thấy chương trình sẽ cho biến v6 bằng
 Nhưng với mỗi lần nhập hợp lệ, biến v5 sẽ giảm 1 đơn vị, đến khi v5 = 0, trò chơi sẽ kết thúc
 Vậy chương trình chỉ cho phép nhập 27 lần.
 Ta thấy để tìm một giá trị cho trước ta sử dụng thuật toán tìm kiếm nhị phân chia nhỏ khoảng giá trị và tìm được giá trị chính xác của v6.
- Điều này là khả thi khi: $
-  \log_{2}(100000000) = 26,5754 $
+ Điều này là khả thi khi:
+                log₂(100000000) = 26.5754
+ 
  Đảm bảo sau 27 lần, ta sẽ tìm được giá trị chính xác của v6
 
 ![Image](https://github.com/user-attachments/assets/cb494597-d3bb-4a07-97f9-bd2c396b2877)
